@@ -1,0 +1,36 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Light gray background */
+}
+
+/* Center the map and make it responsive */
+.map-container {
+    max-width: 1200px;  /* Restrict the width of the map */
+    margin: 20px auto;  /* Center the container and add spacing at the top and bottom */
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Soft shadow for styling */
+}
+
+/* Style for the title or any heading */
+h1 {
+    text-align: center;
+    color: #333;  /* Darker text color */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
